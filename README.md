@@ -8,13 +8,13 @@ speedtest-cli can be installed using:
 pip install speedtest-cli
 ```
 
-The output will be a csv file with the following fields extracted from speedtest-cli:
-timestamp
-d_speed = average download speed (bytes/s)
-u_speed = average upload speed (bytes/s)
-ping
-bytes_sent
-client_ip = your public ip
+The output will be a csv file with the following fields extracted from speedtest-cli:<br />
+timestamp<br />
+d_speed = average download speed (bytes/s)<br />
+u_speed = average upload speed (bytes/s)<br />
+ping<br />
+bytes_sent<br />
+client_ip = your public ip<br />
 server_host = server that speedtest.net determined was your best option
 
-This can be run as a chronjob or Windows task to run frequently and give you feedback about the health of your internet connection.
+This can be run frequently as a chron job or Windows task to give you feedback about the health of your internet connection over time.
