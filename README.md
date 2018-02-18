@@ -17,4 +17,4 @@ bytes_sent<br />
 client_ip = your public ip<br />
 server_host = server that speedtest.net determined was your best option
 
-This can be run frequently as a chron job or Windows task to give you feedback about the health of your internet connection over time.
+This can be run frequently as a cron job or Windows task to give you feedback about the health of your internet connection over time.
